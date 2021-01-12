@@ -12,6 +12,7 @@
   2. git status;
   3. git commit -m ;
   4. git push;
+  5. git remote -v
 
 Сброс фиксации:
 git reset --mixed origin/master
