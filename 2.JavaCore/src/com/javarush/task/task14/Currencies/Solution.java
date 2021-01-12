@@ -1,4 +1,4 @@
-package com.javarush.task.task14.task1417;
+package com.javarush.task.task14.Currencies;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,9 @@ public class Solution {
         Person(String name) {
             this.name = name;
             this.allMoney = new ArrayList<Money>();
-            //напишите тут ваш код
+            allMoney.add(new Hryvnia(100));
+            allMoney.add(new Ruble(200));
+            allMoney.add(new USD(300));
         }
 
         private List<Money> allMoney;
