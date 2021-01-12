@@ -4,11 +4,20 @@
 
 1. Git
 
+  git config --global user.name "user"
+  git config --global user.email user@example.com
+
   1. git init;
   2. git add .;
   2. git status;
   3. git commit -m ;
   4. git push;
+
+Сброс фиксации:
+git reset --mixed origin/master
+git add .
+git commit -m "This is a new commit for what I originally planned to be amended"
+git push origin master
 
 2. Java Syntax
 
