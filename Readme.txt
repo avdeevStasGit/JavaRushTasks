@@ -13,6 +13,7 @@
   3. git commit -m ;
   4. git push;
   5. git remote -v
+  6. git pull
 
 Сброс фиксации:
 git reset --mixed origin/master
