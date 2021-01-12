@@ -19,7 +19,7 @@
   7. Массивы и списки Array, ArrayList, знакомство с Generics
   8. Коллекции LinkedList, HashSet, HashMap. Date - дата.
   9. Работа с исключениями try, catch, throws, multy-catch.
-  10.  Приведение примитивных типов расширение и сужение.
+  10. Приведение примитивных типов расширение и сужение.
 
 3. Java Core
 
