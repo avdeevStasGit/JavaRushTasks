@@ -1,4 +1,4 @@
-package com.javarush.task.task15.task1526;
+package com.javarush.task.task15.Debag;
 
 /* 
 Дебаг, дебаг, и еще раз дебаг
@@ -17,7 +17,7 @@ public class Solution {
             initialize();
         }
 
-        protected void initialize() {
+        private void initialize() {
             System.out.println(f1);
         }
     }
