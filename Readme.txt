@@ -7,13 +7,15 @@
   git config --global user.name "user"
   git config --global user.email user@example.com
 
+  0. cd C:/...;
   1. git init;
   2. git add .;
   2. git status;
   3. git commit -m ;
   4. git push;
-  5. git remote -v
-  6. git pull
+  5. git remote -v;
+  6. git pull;
+  7. git clone ссылка.. 
 
 Сброс фиксации:
 git reset --mixed origin/master
