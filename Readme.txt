@@ -11,7 +11,7 @@
   1. git init;
   2. git add .;
   2. git status;
-  3. git commit -m ;
+  3. git commit -m "text";
   4. git push;
   5. git remote -v;
   6. git pull;
