@@ -7,6 +7,11 @@ public class Hippodrome {
 
     private List<Horse> horses = new ArrayList<Horse>();
 
+    public Hippodrome(List<Horse> horses) {
+
+        this.horses = horses;
+    }
+
     public List<Horse> getHorses() {
         return horses;
     }
