@@ -3,7 +3,7 @@ package com.javarush.task.task21.task2113;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Hippodrome {
+public class Hippodrome implements Runnable {
 
     public static Hippodrome game;
     private List<Horse> horses;
@@ -19,6 +19,18 @@ public class Hippodrome {
 
     public void run() {
 
+        int i = 1;
+        while( i <= 100) {
+
+            move();
+            print();
+            i++;
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     public void move() {
@@ -26,7 +38,7 @@ public class Hippodrome {
     }
 
     public void print() {
-
+        
     }
 
     public static void main(String[] args) {
