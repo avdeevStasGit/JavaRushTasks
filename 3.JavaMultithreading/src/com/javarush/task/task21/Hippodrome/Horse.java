@@ -1,4 +1,4 @@
-package com.javarush.task.task21.task2113;
+package com.javarush.task.task21.Hippodrome;
 
 public class Horse {
 
