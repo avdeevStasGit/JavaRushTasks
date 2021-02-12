@@ -36,4 +36,12 @@ public class Horse {
     public void setSpeed(double speed) {
         this.speed = speed;
     }
+
+    public void move() {
+
+    }
+
+    public void print() {
+
+    }
 }
