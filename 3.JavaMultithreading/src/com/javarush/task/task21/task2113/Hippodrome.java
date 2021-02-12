@@ -61,6 +61,6 @@ public class Hippodrome implements Runnable {
         horses.add(new Horse("Рено", 3, 0));
 
         game = new Hippodrome(horses);
-
+        Hippodrome.game.run();
     }
 }
