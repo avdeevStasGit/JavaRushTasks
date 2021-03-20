@@ -5,6 +5,7 @@ import com.javarush.task.task33.task3310.strategy.*;
 import org.junit.Assert;
 import org.junit.Test;
 
+//junit
 public class FunctionalTest {
     @Test
     public void testHashMapStorageStrategy() {
